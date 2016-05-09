@@ -7,7 +7,10 @@
 
 # Site settings
 title: SC Trafarm SRL
+town1: Orsova
 email: trafarm@trafarm.ro
+phone: "+40 252 363 480"
+phone2: "+40 255 522 344"
 description: > # this means to ignore newlines until "baseurl:"
 
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -15,3 +18,9 @@ url: "http://www.trafarm.ro" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+
+location: Trafarm
+address: 1 Decembrie 1918, Orsova, Mehedinti, Romania
+address2: 1 Cearda, Toplet, Caras Severin, Topleț 327400, Romania
+
+google_api_key: AIzaSyDU-T9LDgbnuQEUdUgeA4q63dFSQSwLhdM

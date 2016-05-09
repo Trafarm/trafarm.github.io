@@ -1,5 +1,5 @@
 ---
-layout: page
-title: Toplet
+layout: toplet
+title: Topleț
 permalink: /toplet/
 ---

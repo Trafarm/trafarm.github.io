@@ -1,5 +1,6 @@
 ---
-layout: page
-title: Orsova
+layout: orsova
+title: Orșova
 permalink: /orsova/
 ---
+
