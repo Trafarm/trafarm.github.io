@@ -13,7 +13,7 @@ phone: "+40 252 363 480"
 phone2: "+40 255 522 344"
 description: > # this means to ignore newlines until "baseurl:"
 
-logo: /assets/images/logo.png
+logo: /assets/images/logo.svg
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.trafarm.ro" # the base hostname & protocol for your site
 
