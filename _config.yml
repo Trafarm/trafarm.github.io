@@ -16,7 +16,7 @@ description: Farmacia ta de incredere # this means to ignore newlines until "bas
 icons_folder: /assets/icons/
 logo: /assets/images/logo.svg
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://trafarm.github.io" # the base hostname & protocol for your site
+url: 'http://www.trafarm.ro' # the base hostname & protocol for your site
 
 image:
   facebook: /assets/images/logo.png
