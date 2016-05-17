@@ -17,10 +17,8 @@ icons_folder: /assets/icons/
 logo: /assets/images/logo.svg
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://trafarm.github.io" # the base hostname & protocol for your site
-facebook:
-  publisher: 210411679034468
-# Build settings
-markdown: kramdown
+
+image: /assets/images/logo.png
 
 location: Trafarm
 address: 1 Decembrie 1918, Orsova, Mehedinti, Romania
@@ -28,6 +26,12 @@ address2: 1 Cearda, Toplet, Caras Severin, Topleț 327400, Romania
 
 google_api_key: AIzaSyDU-T9LDgbnuQEUdUgeA4q63dFSQSwLhdM
 google_site_verification: sf9mdjeJnbzFXPkXj01U3kMwm_IjHsZ_8aVjcI-47xw
+facebook:
+  publisher: 210411679034468
+
+# Build settings
+
+markdown: kramdown
 
 gems:
   - jekyll-seo-tag
