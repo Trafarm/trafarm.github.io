@@ -52,9 +52,3 @@ markdown: kramdown
 
 gems:
   - jekyll-seo-tag
-
-
-markdown: kramdown
-
-gems:
-  - jekyll-seo-tag
