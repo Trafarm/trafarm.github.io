@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ro">
+<html ⚡ lang="ro">
 
   {% include head.html %}
 
@@ -14,8 +14,21 @@
     </div>
 
     {% include footer.html %}
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   </body>
-
-  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-573c4aea1a48d749"></script>
+  <amp-analytics type="googleanalytics" id="googleanalytics">
+    <script type="application/json">
+      {
+        "vars": {
+          "account": "UA-3090430-10"
+        },
+        "triggers": {
+          "trackPageview": {
+            "on": "visible",
+            "request": "pageview"
+          }
+        }
+      }
+    </script>
+  </amp-analytics>
+  <!--<script async type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-573c4aea1a48d749"></script>-->
 </html>
