@@ -24,6 +24,10 @@
     }
 }
 
+.sharing {
+    float: right;
+}
+
 .site-nav {
     float: right;
     line-height: 56px;
@@ -127,8 +131,8 @@
 }
 
 .footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(33% - (#{$spacing-unit} / 2));
+    width:         calc(33% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
