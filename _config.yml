@@ -34,4 +34,3 @@ markdown: kramdown
 
 gems:
   - jekyll-seo-tag
-  - jekyll-minifier
