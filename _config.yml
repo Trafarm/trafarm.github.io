@@ -16,7 +16,7 @@ description: Farmacia ta de incredere. Cea mai buna consiliere, cele mai bune re
 icons_folder: /assets/icons/
 logo: /assets/images/logo.svg
 baseurl: "" # the subpath of your site, e.g. /blog
-url: 'http://www.trafarm.ro' # the base hostname & protocol for your site
+url: 'https://www.trafarm.ro' # the base hostname & protocol for your site
 
 image:
   facebook: /assets/images/logo.png
