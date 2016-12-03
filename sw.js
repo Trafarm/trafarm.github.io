@@ -94,6 +94,6 @@ toolbox.router.get('/(.*)', ampByExampleHandler, {origin: self.location.origin})
 toolbox.router.get('/(.*)', toolbox.cacheFirst, {origin: 'https://cdn.ampproject.org'});
 // cache first google fonts
 toolbox.router.get('/(.+)', toolbox.cacheFirst, {origin: /https?:\/\/fonts.+/});
-toolbox.router.get('/(.+)', toolbox.cacheFirst, {origin: /https?:\/\/maps.+/});
+toolbox.router.get('/(.*)', toolbox.cacheFirst, {origin: /https?:\/\/*/});
 
 toolbox.precache(config.filesToCache);

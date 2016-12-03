@@ -485,3 +485,13 @@ pre {
         }
     }
 }
+
+
+.carousel {
+    background: #eee;
+    margin: 16px 0;
+}
+
+.carousel .slide > amp-img > img{
+    object-fit: contain;
+}
