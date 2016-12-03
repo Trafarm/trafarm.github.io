@@ -27,8 +27,7 @@ config.filesToCache = [
     '/favicon-16x16.png',
     '/favicon-32x32.png',
     '/manifest.json',
-    '/assets/images/logo.svg',
-    '/asserts/images/facebook.svg'
+    '/assets/images/logo.svg'
 ];
 
 /**
