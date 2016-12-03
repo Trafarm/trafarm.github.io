@@ -7,10 +7,10 @@
       </div>
       <div class="sharing">
           <a href="https://www.facebook.com/Farmacia-Trafarm-210411679034468/">
-            <img src="/assets/images/facebook.svg" height="40px" width="40px" alt="Facebook Page Link">
+            <amp-img src="/assets/images/facebook.svg" height="40px" width="40px" alt="Facebook Page Link"></amp-img>
           </a>
           <a href="https://plus.google.com/+FarmaciaTrafarmOr%C8%99ova">
-            <img src="/assets/images/googleplus.svg" height="40px" width="40px" alt="Google Page Link">
+            <amp-img src="/assets/images/googleplus.svg" height="40px" width="40px" alt="Google Page Link"></amp-img>
           </a>
       </div>
     </div>
@@ -49,3 +49,24 @@
   </div>
 
 </footer>
+
+ <amp-analytics type="googleanalytics" id="analytics1">
+    <script type="application/json">
+    {
+      "vars": {
+        "account": "UA-3090430-10"
+      },
+      "triggers": {
+        "trackPageview": {
+          "on": "visible",
+          "request": "pageview"
+        }
+      }
+    }
+    </script>
+  </amp-analytics>
+<amp-install-serviceworker
+        src="{{ "/sw.js" | prepend: site.baseurl | prepend: site.url }}"
+        data-iframe-src="{{ "/sw.html" | prepend: site.baseurl | prepend: site.url }}"
+        layout="nodisplay">
+</amp-install-serviceworker>
