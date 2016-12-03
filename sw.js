@@ -22,7 +22,7 @@ const config = {
 
 config.filesToCache = [
     '/',
-    'despre',
+    '/despre',
     config.offlinePage,
     '/favicon-16x16.png',
     '/favicon-32x32.png',
