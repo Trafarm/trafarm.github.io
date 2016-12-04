@@ -269,6 +269,10 @@ pre {
     float: right;
 }
 
+.call-icon {
+    display: none;
+}
+
 .site-nav {
     float: right;
     line-height: 56px;
@@ -333,6 +337,11 @@ pre {
                 margin-right: 0;
             }
             margin-left: 20px;
+        }
+
+        .call-icon {
+            display: block;
+            float: right;
         }
     }
 }
@@ -400,6 +409,10 @@ pre {
 }
 
 @include media-query($on-palm) {
+    .call-icon {
+        display: block;
+        float: right;
+    }
     .footer-col {
         float: none;
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
@@ -490,8 +503,4 @@ pre {
 .carousel {
     background: #eee;
     margin: 16px 0;
-}
-
-.carousel .slide > amp-img > img{
-    object-fit: contain;
 }
