@@ -69,21 +69,6 @@
 
 </footer>
 
- <amp-analytics type="googleanalytics" id="analytics1">
-    <script type="application/json">
-    {
-      "vars": {
-        "account": "UA-3090430-10"
-      },
-      "triggers": {
-        "trackPageview": {
-          "on": "visible",
-          "request": "pageview"
-        }
-      }
-    }
-    </script>
-  </amp-analytics>
 <amp-install-serviceworker
         src="{{ "/sw.js" | prepend: site.baseurl | prepend: site.url }}"
         data-iframe-src="{{ "/sw.html" | prepend: site.baseurl | prepend: site.url }}"
