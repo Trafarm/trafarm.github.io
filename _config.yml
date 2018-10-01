@@ -32,5 +32,5 @@ google_site_verification: sf9mdjeJnbzFXPkXj01U3kMwm_IjHsZ_8aVjcI-47xw
 
 markdown: kramdown
 
-gems:
+plugins:
   - jekyll-seo-tag
